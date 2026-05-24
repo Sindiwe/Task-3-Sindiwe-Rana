@@ -1,22 +1,23 @@
 # Task 3
 
-Project Overview
+## Project Overview
 
 This project was completed as part of a data analytics internship to demonstrate foundational SQL skills in querying, filtering, grouping, and analyzing data. The goal of the project was to extract meaningful business insights from a sales dataset using SQL queries.
 
 The analysis focused on customer purchasing behavior, product performance, revenue generation, payment methods, referral sources, coupon usage, and sales trends over time.
 
-Project Goal
+## Project Goal
 Use SQL queries to extract insights from a dataset and support business decision-making through data analysis.
 
-Key Requirements
+### Key Requirements
 Write SELECT queries
 Use WHERE, ORDER BY, and GROUP BY
 Perform aggregations using:
 COUNT()
 SUM()
 AVG()
-Key Skills Demonstrated
+
+### Key Skills Demonstrated
 SQL Fundamentals
 Data Querying
 Data Filtering
@@ -25,10 +26,7 @@ Aggregation Functions
 Business Data Analysis
 Sales & Revenue Analysis
 
-Dataset Used
-Dataset Name: Dataset for Data Analytics
-
-The dataset contains transactional sales information including:
+### The dataset contains transactional sales information including:
 
 Order IDs
 Customer IDs
@@ -42,7 +40,7 @@ Referral sources
 Order status
 Sales dates
 
-SQL Queries & Analysis
+### SQL Queries & Analysis
 
 1. Retrieve All Data
 Used to display all records from the dataset.
@@ -55,8 +53,8 @@ Retrieved records where total sales exceeded 1500.
 SELECT *
 FROM [Dataset for Data Analytics]
 WHERE TotalPrice > 1500;
-3. Top-Selling Product
 
+3. Top-Selling Product
 Identified the product with the highest total units sold.
 
 SELECT TOP 1
@@ -175,7 +173,7 @@ FROM [Dataset for Data Analytics]
 GROUP BY orderstatus
 ORDER BY order_count DESC;
 
-Key Insights
+### Key Insights
 Identified the highest-performing products based on units sold and revenue.
 Determined the most frequently used payment method.
 Analyzed customer spending behavior and top customers.
@@ -183,8 +181,8 @@ Evaluated marketing channel performance through referral sources.
 Monitored monthly sales trends and operational order statuses.
 Assessed coupon effectiveness in driving revenue.
 
-Tool Used
+### Tool Used
 SQL Server Management Studio (SSMS)
 
-Conclusion
+### Conclusion
 This project demonstrates practical SQL skills used in real-world business analytics. Through data querying, filtering, grouping, and aggregation, valuable insights were extracted to support data-driven decision-making.
